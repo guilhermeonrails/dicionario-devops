@@ -1,0 +1,117 @@
+[
+  {
+    "titulo": "Guia de estudos",
+    "descricao": "O TechGuide é um guia completo para profissionais de DevOps e muitas outras áreas.",
+    "link": "https://techguide.sh/pt-BR/path/devops/"
+  },
+  {
+    "titulo": "Git",
+    "descricao": "Sistema que salva o histórico de alterações no código. Ajuda várias pessoas a trabalharem juntas.",
+    "link": "https://www.alura.com.br/artigos/o-que-e-git-github?srsltid=AfmBOopTN52_kWhds5y5hyAOrisZm5HAU2LvUIX9XDyi7mD1WDelPYXx"
+  },
+  {
+    "titulo": "GitHub",
+    "descricao": "Site onde guardamos códigos usando Git. Também serve para compartilhar e colaborar com outros devs.",
+    "link": "https://www.alura.com.br/artigos/o-que-e-git-github?srsltid=AfmBOopTN52_kWhds5y5hyAOrisZm5HAU2LvUIX9XDyi7mD1WDelPYXx"
+  },
+  {
+    "titulo": "GitLab",
+    "descricao": "Parecido com o GitHub, mas com mais ferramentas integradas, como testes automáticos.",
+    "link": "https://pt.wikipedia.org/wiki/GitLab"
+  },
+  {
+    "titulo": "CI/CD (Integração Contínua / Entrega Contínua)",
+    "descricao": "Conjunto de práticas que automatizam o processo de desenvolvimento, testes e entrega de software.",
+    "link": "https://www.alura.com.br/conteudo/integracao-continua-pipelines-testes-automatizados-github-actions"
+  },
+  {
+    "titulo": "Docker",
+    "descricao": "Empacota um app com tudo que ele precisa para rodar igual em qualquer computador.",
+    "link": "https://www.alura.com.br/artigos/comecando-com-docker?srsltid=AfmBOoqKnA-HjIo6oih4AAFClDR4GAMh7dFRIMAZQi5-QqrKanF9Z2V3"
+  },
+  {
+    "titulo": "Kubernetes",
+    "descricao": "Cuida de vários containers (como os do Docker), iniciando e parando eles quando necessário.",
+    "link": "https://www.alura.com.br/artigos/kubernetes?srsltid=AfmBOopQlPaiuIYVPkptiFJrUxTItlC19NF8fV8TY7gYn-CmUWqpCv-g"
+  },
+  {
+    "titulo": "Pipeline",
+    "descricao": "Conjunto de etapas automatizadas (como build, testes, deploy) que ocorrem no CI/CD.",
+    "link": "https://www.redhat.com/pt-br/topics/devops/what-cicd-pipeline"
+  },
+  {
+    "titulo": "Jenkins",
+    "descricao": "Ferramenta que ajuda a automatizar testes e envio de código para produção.",
+    "link": "https://www.alura.com.br/conteudo/jenkins-automatize-pipelines-qualidade-codigo-deploy-seguro?utm_term=&utm_campaign=&utm_source=google&utm_medium=cpc&campaign_id=22581039328__&utm_id=22581039328__&hsa_acc=7964138385&hsa_cam=&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gad_campaignid=22581037897&gbraid=0AAAAADpqZIDqudNzxYSmok3pRw2JgWae5&gclid=Cj0KCQjwlrvBBhDnARIsAHEQgOSZWNON1eVb0sInt6XFSNrLmoWfMgHPzT9qlqkgHCeAmhQpz9S0VzEaArMnEALw_wcB"
+  },
+  {
+    "titulo": "ArgoCD",
+    "descricao": "Ferramenta que instala e atualiza apps no Kubernetes usando Git.",
+    "link": "https://www.alura.com.br/conteudo/argocd-automatizando-deploy-aplicacoes?srsltid=AfmBOop6m2btCf7nWvhNGcFABElYkce6pmqZkYOwXsj_3QKabhlUI642"
+  },
+  {
+    "titulo": "Terraform",
+    "descricao": "Ferramenta que cria e configura servidores com código.",
+    "link": "https://www.alura.com.br/artigos/conheca-o-terraform?srsltid=AfmBOoraT-FByWSs3yPrNMkrNUT0x0Dq9DUv1bh-XIN5j0V5MnvU4b9h"
+  },
+  {
+    "titulo": "Prometheus",
+    "descricao": "Coleta dados de uso de apps e servidores para análise.",
+    "link": "https://www.alura.com.br/conteudo/monitoramento-prometheus-grafana-alertmanager?srsltid=AfmBOoqfpS6u1HrjWUo9hjQy-TrjJ7_1nZjzKSlrHvQwuLwFbri_UDue"
+  },
+  {
+    "titulo": "Grafana",
+    "descricao": "Mostra gráficos bonitos com os dados coletados pelo Prometheus.",
+    "link": "https://www.alura.com.br/conteudo/confiabilidade-centralizando-logs-grafana-loki"
+  },
+  {
+    "titulo": "Site Reliability Engineer (SRE)",
+    "descricao": "Garante que sistemas estejam sempre funcionando e rápidos, resolvendo problemas antes que apareçam.",
+    "link": "https://www.alura.com.br/formacao-sre?utm_term=&utm_campaign=&utm_source=google&utm_medium=cpc&campaign_id=22581039328__&utm_id=22581039328__&hsa_acc=7964138385&hsa_cam=&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gad_campaignid=22581037897&gbraid=0AAAAADpqZIDqudNzxYSmok3pRw2JgWae5&gclid=Cj0KCQjwlrvBBhDnARIsAHEQgORAkTBumuAhu6ub6qglCFe41EzvuiG7vvCQjVyVHHBNbNB8yjD9LqAaArbFEALw_wcB"
+  },
+  {
+    "titulo": "DevOps Engineer",
+    "descricao": "Automatiza processos para que times de desenvolvimento e operações trabalhem juntos sem erros.",
+    "link": "https://www.alura.com.br/artigos/devops-o-que-e?utm_term=&utm_campaign=&utm_source=google&utm_medium=cpc&campaign_id=22581039328__&utm_id=22581039328__&hsa_acc=7964138385&hsa_cam=&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gad_campaignid=22581037897&gbraid=0AAAAADpqZIDqudNzxYSmok3pRw2JgWae5&gclid=Cj0KCQjwlrvBBhDnARIsAHEQgORbKQbxx45TUE-ao4e_803bE0PPzZYtW26rdh8Jj-Q-TvbwsONSJcgaAlpkEALw_wcB"
+  },
+  {
+    "titulo": "Cloud Engineer",
+    "descricao": "Cuida dos servidores e serviços na nuvem para que apps funcionem bem e com segurança.",
+    "link": "https://cloud.google.com/learn/certification/cloud-engineer?hl=pt-br#:~:text=O%20Associate%20Cloud%20Engineer%20implanta,nuvens%20p%C3%BAblicas%20e%20solu%C3%A7%C3%B5es%20locais."
+  },
+  {
+    "titulo": "Infrastructure as Code (IaC) Specialist",
+    "descricao": "Usa código para criar e controlar servidores e redes de forma automática e confiável.",
+    "link": "https://www.alura.com.br/videos/o-que-e-infraestrutura-como-codigo-iac--c139?utm_term=&utm_campaign=&utm_source=google&utm_medium=cpc&campaign_id=22581039328__&utm_id=22581039328__&hsa_acc=7964138385&hsa_cam=&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=google&hsa_ver=3&gad_source=1&gad_campaignid=22581037897&gbraid=0AAAAADpqZIDqudNzxYSmok3pRw2JgWae5&gclid=Cj0KCQjwlrvBBhDnARIsAHEQgOQL9H0aZiDdhBZTGb07VphYxTUqy9LZXDPC_ztuHtLbW5_CynPCAPcaAh40EALw_wcB"
+  },
+  {
+    "titulo": "Observabilidade",
+    "descricao": "Conjunto de práticas para entender o que está acontecendo em um sistema (logs, métricas, traces).",
+    "link": "https://www.alura.com.br/conteudo/observabilidade-prometheus"
+  },
+  {
+    "titulo": "DevOps para iniciantes",
+    "descricao": "Que tal aprender DevOps do zero? Este artigo é ideal para quem está começando.",
+    "link": "https://www.alura.com.br/artigos/o-que-e-devops?srsltid=AfmBOorae1zsCD2oU1gh8ZBLnGd-w2FJiTFcBE9VCaIKCIsls43o_yMq"
+  },
+  {
+    "titulo": "API",
+    "descricao": "Interface que permite que sistemas diferentes se comuniquem entre si.",
+    "link": "https://www.alura.com.br/artigos/como-criar-apis-python-usando-fastapi?srsltid=AfmBOopGux8H7frkXounvNvQ5ZLwPXYkgS6TUlahAy4ah4zoUNtyWdLs"
+  },
+  {
+    "titulo": "REST (Representational State Transfer)",
+    "descricao": "Estilo arquitetural para criação de APIs baseadas em recursos acessíveis por URLs e métodos HTTP (GET, POST, etc).",
+    "link": "https://www.alura.com.br/artigos/rest-conceito-e-fundamentos?srsltid=AfmBOoqPgkZZ9amjWXdBJ2WwSHpmqPOpEAjgAPoWBSF3XRV9EddLkl9O"
+  },
+  {
+    "titulo": "banco de dados",
+    "descricao": "Sistema que armazena e organiza dados de forma estruturada, permitindo fácil acesso e manipulação.",
+    "link": "https://www.alura.com.br/formacao-conhecendo-sql?srsltid=AfmBOop8kaCZ4uAiwT4fjG8yzQV56BtVX2kZs-LnLYLlKwCKW3ivN-kd"
+  },
+  {
+    "titulo": "Security Engineer (DevSecOps)",
+    "descricao": "Foca em deixar o processo de desenvolvimento e operações seguro, evitando ataques e erros.",
+    "link": "https://www.alura.com.br/artigos/devsecops?srsltid=AfmBOopZibS6A5bQIPbLk1yP7YzhIEusFSS8tPeWryPCq6sBxnUo0v7w"
+  }
+]

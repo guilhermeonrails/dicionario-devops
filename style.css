@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    background-color: #01080E;
+    color: #D7F9FF;
+    padding: 1.2rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    line-height: 1.2;
+    color: #D7F9FF;
+}
+
+span {
+    color: #2BDEFD;
+}
+
+.search-container {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+#searchInput {
+    padding: 10px;
+    border: 1px solid #98D4DE;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 25rem;
+    background-color: #01080E;
+    color: #D7F9FF;
+    box-sizing: border-box;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #2BDEFD;
+    box-shadow: 0 0 5px rgba(43, 222, 253, 0.5);
+}
+
+#searchInput::placeholder {
+    color: #98D4DE;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card {
+    background-color: #D7F9FF;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    cursor: default;
+    margin-bottom: 1.5rem;
+}
+
+.card:hover {
+    background-color: #D7F9FF;
+    transform: scale(1.03);
+    box-shadow: 0 0 0 3px #98D4DE;
+    font-weight: 700;
+
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0074DF;
+    margin: 0;
+}
+
+.card p {
+    margin-top: 0.6rem;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333333;
+}
+
+/* Media queries para responsividade do campo de busca */
+@media (max-width: 600px) {
+    .search-container {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #searchInput {
+        font-size: 0.9rem;
+        padding: 8px;
+        padding-right: 30px;
+    }
+
+    .search-container::after {
+        width: 18px;
+        height: 18px;
+        right: 15px;
+    }
+}
